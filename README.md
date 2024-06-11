@@ -5,7 +5,8 @@ b) En el caso de mi compañero, los tiempos fueron diferentes, mas no por tanto 
 
 c) El valor final cambio drasticamente, paso de dar 0 constantemente a dar numeros cercanos al -50000 hasta 50000. Esto sucede porque cuando se descomenta el código, se introducen unos bucles adicionales que no hacen nada, lo que aumenta el tiempo de ejecución.
 
-2.a) 
+2.a)
+```
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -59,3 +60,4 @@ int main(int argc, char *argv[])
 	}
 	pthread_exit(NULL); // como los hilos que cree ya terminaron de ejecutarse, termino yo tambien.
 }
+```
