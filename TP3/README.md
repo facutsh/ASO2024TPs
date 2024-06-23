@@ -3,7 +3,7 @@ En ambos casos, el tiempo se puede aproximar, ya que ninguno de los programas, t
 
 b) En el caso de mi compañero, los tiempos fueron diferentes, mas no por tanto ya que habia una diferencia de un segundo entre sus programas y los mios. Ademas seguian siendo igual de constantes que los mios (el tiempo era siempre el mismo, pero las decimas no).
 
-c) El valor final cambio drasticamente, paso de dar 0 constantemente a dar numeros cercanos al -50000 hasta 50000. Esto sucede porque cuando se descomenta el código, se introducen unos bucles adicionales que no hacen nada, lo que aumenta el tiempo de ejecución.
+c) El valor final cambio drasticamente, paso de dar 0 constantemente a dar numeros cercanos al -50000 hasta 50000. Esto sucede porque cuando se descomenta el código, se introducen unos bucles adicionales que no hacen nada, lo que aumenta el tiempo de ejecución y y el valor final cambia porque los dos entran a “acumulador”, lo que cambia su resultado.
 
 2.a)
 ```
